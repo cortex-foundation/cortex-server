@@ -1,0 +1,25 @@
+{
+  "name": "cortex-server",
+  "version": "1.0.0",
+  "description": "Cortex's oss backend application.",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "decentralized",
+    "oss",
+    "chat",
+    "cortex"
+  ],
+  "author": "Cortex Foundation",
+  "license": "MIT",
+  "packageManager": "pnpm@10.27.0",
+  "devDependencies": {
+    "turbo": "^2.7.3"
+  }
+}
