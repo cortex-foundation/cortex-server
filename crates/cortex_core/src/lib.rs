@@ -1,14 +1,12 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+// //자동 생성된 모듈 로드
+// pub mod packets {
+//     include!(concat!(env!("OUT_DIR"), "/protos_mod.rs"));
+// }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+// 사용자 로직
+pub mod crypto {
+    pub fn verify_signature(_data: &[u8], _signature: &str) -> bool {
+        true
     }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "@cortex/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "index.mjs",
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.2",
+    "globals": "^16.0.0",
+    "typescript-eslint": "^8.20.0"
+  }
+}

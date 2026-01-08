@@ -1,0 +1,9 @@
+version: v1
+plugins:
+  - plugin: protoc-gen-es
+    out: packages/api-client/src/gen
+    opt: target=ts
+  - plugin: protoc-gen-prost
+    out: crates/cortex_core/src/gen
+    opt:
+      - file_descriptor_set=false
